@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #212529;
+    color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border-radius: 8px;
+    background-color: #0065d1 !important;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.table {
+    background-color: #343a40 !important;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #f8f9fa !important;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table th {
+    background-color: #0065d1;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-color: #454d55 !important;
+}
+
+.table td {
+    background-color: #343a40 !important;
+    color: #ffffff;
+    padding: 12px;
+    border-top: 1px solid #6c757d;
+    border-color: #454d55 !important;
+}
+.table tbody tr:hover td {
+    color: #ffffff !important;
+}
+
+
+
+.btn-group .btn {
+    margin-right: 5px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+} 
+
+.form-control,
+select.form-control {
+    border-radius: 6px;
+    background-color: #495057 !important;
+    color: #f8f9fa !important;
+    border: 1px solid #6c757d;
+}
+
+.form-control:focus,
+select.form-control:focus {
+    background-color: #495057 !important;
+    color: #f8f9fa !important;
+    border-color: #007bff;
+    outline: none;
+}
+
+select {
+    background-color: #495057 !important;
+    color: #f8f9fa !important;
+    border: none !important;
+    border-color: #454d55 !important;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.company-link {
+    color: #9bb5ff;
+    text-decoration: none;
+}
+
+.company-link:hover {
+    text-decoration: underline;
+}
+.table-responsive{
+    margin-top: 20px;
+}
+.listOfPurchases, .listOfSales{
+    margin-top:40px;
+}
+.pagination .page-item.active .page-link {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    color: white !important;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #495057 !important;
+    border-color: #6c757d !important;
+    color: #b1b1b1 !important;
+    cursor: not-allowed;
+}
+
+.pagination .page-link {
+    background-color: #0065d1 !important;
+    color: white !important;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #0056b3 !important;
+}
+.invoice-button, .person-button {
+    margin-bottom: 40px; 
+}
